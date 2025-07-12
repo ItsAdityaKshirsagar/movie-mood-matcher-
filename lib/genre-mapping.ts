@@ -1,0 +1,35 @@
+// TMDB genre IDs mapping
+export const GENRE_MAP = {
+  action: 28,
+  adventure: 12,
+  animation: 16,
+  comedy: 35,
+  crime: 80,
+  documentary: 99,
+  drama: 18,
+  family: 10751,
+  fantasy: 14,
+  history: 36,
+  horror: 27,
+  music: 10402,
+  mystery: 9648,
+  romance: 10749,
+  "science fiction": 878,
+  "tv movie": 10770,
+  thriller: 53,
+  war: 10752,
+  western: 37,
+}
+
+export const GENRE_OPTIONS = [
+  { value: "action", label: "Action", tmdbId: 28 },
+  { value: "comedy", label: "Comedy", tmdbId: 35 },
+  { value: "drama", label: "Drama", tmdbId: 18 },
+  { value: "horror", label: "Horror", tmdbId: 27 },
+  { value: "romance", label: "Romance", tmdbId: 10749 },
+  { value: "thriller", label: "Thriller", tmdbId: 53 },
+  { value: "adventure", label: "Adventure", tmdbId: 12 },
+  { value: "animation", label: "Animation", tmdbId: 16 },
+  { value: "crime", label: "Crime", tmdbId: 80 },
+  { value: "fantasy", label: "Fantasy", tmdbId: 14 },
+]
